@@ -1,3 +1,3 @@
 # React/Redux Budget Tracker
 
-## Demonstrate basic redux functionality
+## Demonstrate basic Redux functionality
