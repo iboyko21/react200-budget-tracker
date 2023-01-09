@@ -11,7 +11,7 @@ export default class ExpenseEntries extends React.Component {
     constructor(props) {
         super(props);
         // Here we're binding these methods to the context of the components.
-        // THis only has to be done, because these methods are called back by
+        // This only has to be done, because these methods are called back by
         // event emitters (which loose context);
         this.handleDescriptionInput = this.handleDescriptionInput.bind(this);
         this.handleAmountInput = this.handleAmountInput.bind(this);

@@ -44,14 +44,4 @@ export default function ExpenseReducer (state = defaultState, action) {
             return state;
         }
     }
-
-
-
-
-
-
-
-
-
-    return state;
 }
