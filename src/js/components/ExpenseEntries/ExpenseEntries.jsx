@@ -6,7 +6,6 @@ import {
     addExpense
 } from './expenseActions';
 
-
 export default class ExpenseEntries extends React.Component {
     constructor(props) {
         super(props);
