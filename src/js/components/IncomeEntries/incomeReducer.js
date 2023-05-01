@@ -4,7 +4,6 @@ const defaultState = {
     lineItems: []
 };
 
-
 export default function IncomeReducer(state = defaultState, action) {
 	const { type, payload } = action;
 

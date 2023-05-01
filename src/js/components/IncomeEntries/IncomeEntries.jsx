@@ -5,7 +5,6 @@ import {
     addIncome
   } from './incomeActions';
 
-
 export default class IncomeEntries extends React.Component {
     constructor(props) {
         super(props);
