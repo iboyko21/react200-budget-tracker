@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function calculateSum(lineItems) {
     return lineItems.reduce((acc, lineItem) => acc + lineItem.amount, 0)
 }
@@ -48,6 +47,5 @@ class Summary extends React.Component {
         );
     }
 }
-
 
 export default Summary;
