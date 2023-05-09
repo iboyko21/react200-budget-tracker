@@ -85,4 +85,4 @@ export default class ExpenseEntries extends React.Component {
             </div>
         );
     }
-}
+};
