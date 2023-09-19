@@ -5,7 +5,7 @@ const defaultState = {
 };
 
 export default function IncomeReducer(state = defaultState, action) {
-	const { type, payload } = action;
+	const {type, payload} = action;
 
 	switch (type) {
 		case 'UPDATE_INCOME_DESCRIPTION': {
@@ -23,19 +23,19 @@ export default function IncomeReducer(state = defaultState, action) {
 		}
 
 		case 'ADD_INCOME': {
-			const { description, amount } = action.payload;
+			const {description, amount} = action.payload;
 			return {
 				description: '',
 				action: '',
 				lineItems: [
 					...state.lineItems,
-					{ description, amount }
-				]
-			};
+					{description, amount}
+				];
+			}
 		}
 
 		default: {
 			return state;
 		}
 	}
-};
+}
