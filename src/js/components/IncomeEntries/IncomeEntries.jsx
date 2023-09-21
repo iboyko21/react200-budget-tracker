@@ -73,7 +73,6 @@ export default class IncomeEntries extends React.Component {
                             }
                             </tbody>
                         </table>
-
                     </form>
                 </div>
             </div>
